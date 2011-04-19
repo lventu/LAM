@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS "Bevande";
+CREATE TABLE Bevande(nome,ingredienti,prezzo,rif_img);
+DROP TABLE IF EXISTS "Contorni";
+CREATE TABLE Contorni(nome,ingredienti,prezzo,rif_img);
+DROP TABLE IF EXISTS "Dolci";
+CREATE TABLE Dolci(nome,ingredienti,prezzo,rif_img);
+DROP TABLE IF EXISTS "Primi";
+CREATE TABLE Primi(nome,ingredienti,prezzo,rif_img);
+DROP TABLE IF EXISTS "Secondi";
+CREATE TABLE Secondi(nome,ingredienti,prezzo,rif_img);
+DROP TABLE IF EXISTS "android_metadata";
+CREATE TABLE android_metadata(locale);
+INSERT INTO "android_metadata" VALUES('en_US');
+INSERT INTO "android_metadata" VALUES('it_IT');
